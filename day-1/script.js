@@ -17,31 +17,39 @@ const firstName = 'Onelio';
 const lastName = 'Viera';
 console.log(firstName, lastName);
 
+// 6: Store your full name in a variable by adding the two variables
 const fullName = firstName + ' ' + lastName;
 console.log(fullName);
 
+// Bonus: Store your firsName, lastName in a variable called myInfo using template literals
 const myInfo = (`My first name is ${firstName}, and my last name is ${lastName}`);
 console.log(myInfo);
 
-// 6: Store your full name in a variable by adding the two variables
-
 // UNCOMMENT THE LINE BELOW TO PRINT THE RESULT
-// console.log(fullName);
+console.log(fullName);
 
 // 7: Store your firstName, lastName, favColor and hometown in an object called myDetails
+const myDetails = {
+  firstName: firstName,
+  lastName: lastName,
+  favColor: 'purple',
+  hometown: 'Tampa'
+}
 
 // UNCOMMENT THE LINE BELOW TO PRINT THE RESULT
-// console.log(myDetails);
+console.log(myDetails);
 
 // 8: Using the data from your myDetails variable, create a one sentence bio and store it as a string.
+const myBio = `Hello, my name is ${myDetails.firstName} ${myDetails.lastName}. My current favorite color is ${myDetails.favColor}, and I am from ${myDetails.hometown}.`;
 
 // UNCOMMENT THE LINE BELOW TO PRINT THE RESULT
-// console.log(myBio);
+console.log(myBio);
 
 // 9: Create an array called dreamDestinations with your top 5 travel destinations.
+const dreamDestinations = ['Cuba', 'Span', 'Italy', 'Portugal', 'Greece'];
 
 // UNCOMMENT THE LINE BELOW TO PRINT THE RESULT
-// console.log(dreamDestinations);
+console.log(dreamDestinations);
 
 //--------------------------------------------------
 // JS4B - Homework - Challenge Part 2
