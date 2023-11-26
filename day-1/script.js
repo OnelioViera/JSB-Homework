@@ -33,7 +33,7 @@ const myDetails = {
   firstName: firstName,
   lastName: lastName,
   favColor: 'purple',
-  hometown: 'Tampa'
+  hometown: 'Tampa, FL'
 }
 
 // UNCOMMENT THE LINE BELOW TO PRINT THE RESULT
