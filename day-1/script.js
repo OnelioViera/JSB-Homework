@@ -58,15 +58,24 @@ console.log(dreamDestinations);
 // 10: Write a loop that logs 'hello' to the console 10 times
 for (let i = 0; i < 10; i++) {
   // code here
+  console.log('hello');
 }
 
 // 11: Use a WHILE loop to add 1 to 'count' 100 times
 let count = 0;
 // code here
-
+while (count < 100) {
+  count += 1;
+}
 // Console log the new value of count
+console.log(count);
 
 // 12: Print the even numbers between 1 and 100
+for (let i = 0; i <= 100; i++) {
+  if (i % 2 === 0) {
+    console.log(i);
+  }
+}
 
 // 13: Print your top five travel destinations to the console using a for loop.
 
