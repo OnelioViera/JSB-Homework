@@ -1,3 +1,5 @@
 {
-    "git.ignoreLimitWarning": true
+    "git.ignoreLimitWarning": true,
+    "javascript-repl.context": "Node",
+    "javascript-repl.outputChannel": true
 }
